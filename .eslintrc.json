@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "google"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "simple-import-sort"],
+  "rules": {
+    "indent": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "sort-imports": "off",
+    "import/first": "off",
+    "import/newline-after-import": "off",
+    "import/no-duplicates": "off",
+    "import/order": "off",
+    "no-unused-vars": "warn",
+    "require-jsdoc": "off"
+  }
+}
